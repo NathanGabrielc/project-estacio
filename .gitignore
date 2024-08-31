@@ -1,0 +1,8 @@
+# Ignorar node_modules em todos os diretórios
+node_modules/
+
+# Ignorar node_modules do backend
+server/node_modules/
+
+# Ignorar node_modules do frontend
+client/node_modules/
