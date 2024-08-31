@@ -17,9 +17,9 @@ Certifique-se de ter as seguintes ferramentas instaladas:
    Clone o repositório do projeto para o seu ambiente local e navegue até o diretório do projeto:
 
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
-   code .
+   git clone https://github.com/NathanGabrielc/project-estacio.git
+
+   cd project-estacio
    Configurar o Banco de Dados e o Projeto
    ```
 
