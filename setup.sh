@@ -3,6 +3,10 @@
 # Configuração de variáveis
 DB_USER="postgres"
 DB_NAME="todo_list"
+PSQL_PATH="C:/Program Files/PostgreSQL/16/bin"
+
+# Adicionar PostgreSQL ao PATH temporariamente
+export PATH=$PATH:"$PSQL_PATH"
 
 # Criação do banco de dados
 echo "Criando o banco de dados '${DB_NAME}'..."
