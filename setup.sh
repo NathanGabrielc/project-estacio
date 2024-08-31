@@ -34,12 +34,12 @@ CREATE TABLE IF NOT EXISTS users (
 
 # Instalação das dependências do backend
 echo "Instalando dependências do backend..."
-cd backend || { echo "Backend directory not found"; exit 1; }
+cd server || { echo "Server directory not found"; exit 1; }
 npm install
 
 # Instalação das dependências do frontend
 echo "Instalando dependências do frontend..."
-cd ../frontend || { echo "Frontend directory not found"; exit 1; }
+cd ../client || { echo "Client directory not found"; exit 1; }
 npm install
 
 # Instalação das dependências globais
